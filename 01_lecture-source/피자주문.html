@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="search" method="post">
+        <label>고객명 : </label>
+        <input type="text">
+    <br>
+    <br>
+    <form action="search" method="post">
+        <label>전화번호 : </label>
+        <input type="text">
+    <br>    
+    <br>
+    <form action="search" method="post">
+        <label>E-mail : </label>
+        <input type="text">
+    <br>
+    <br>
+
+        <label>피자선택 : </label>
+        <select name="pizza">
+            <option value="none">피자를 선택하세요</option>
+            <option value="수퍼슈프림">수퍼슈프림</option>
+            <option value="더블치즈">더블치즈</option>
+            <option value="페퍼로니">페퍼로니</option>
+            <option value="하와이언">하와이언</option>
+        </select>
+         <br>
+         <br>
+
+    <fieldset>
+        <legend>피자 사이즈</legend>
+        <br>
+
+        <input type = "radio" id="Small">
+        <lable for="Small">Small</lable>
+        <br><br>
+        <input type = "radio" id="Medium">
+        <lable for="Medium">Medium</lable>
+        <br><br>
+        <input type = "radio" id="Large">
+        <lable for="Large">Large</lable>
+        <br>
+        <br>
+
+    </fieldset>    
+
+    <fieldset>
+        <legend>토핑 선택</legend>
+        <br>
+   
+        <input type = "checkbox" id="베이컨" >
+        <label for="베이컨">베이컨</label>
+        <br>
+        <br>
+        <input type = "checkbox" id="치즈" >
+        <label for="치즈">치즈</label>
+        <br>
+        <br>
+        <input type = "checkbox" id="양파">
+        <label for="양파">양파</label>
+        <br>
+        <br>
+        <input type = "checkbox" id="버섯">
+        <label for="버섯">버섯</label>
+        <br>
+        <br>
+    
+    </fieldset>
+
+    <form action="search" method="post">
+        <label>희망배송시각 
+        <input type="time" name="time"> </label>
+        <br>
+    <br>
+    <br>
+    <li>배송 시 요청사항 : 
+
+        <textarea name="contents" cols="30" rows="5" style="resize:none ;">
+        </textarea> 
+    </ul>
+    <br>
+    <br> 
+
+    <button type="button">주문하기</button>
+
+</body>
+</html>
